@@ -1,3 +1,13 @@
+---
+title: "Very strange things"
+author: "Elias Mendes Costa"
+date: ""
+---
+
+```{r, eval=FALSE}
+rmarkdown::render('main.Rmd', encoding = 'UTF-8', output_dir = "../docs/")
+```
+
 
 # Teste
 
@@ -7,7 +17,8 @@ a
 ```
 
 ```{r}
-
+b = 2*2
+b
 ```
 
 
